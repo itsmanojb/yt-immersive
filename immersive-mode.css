@@ -1,0 +1,58 @@
+#masthead-container.ytd-app {
+  display: none;
+}
+
+#page-manager.ytd-app {
+  margin: 0 !important;
+  height: 100vh !important;
+  align-items: center !important;
+  overflow: hidden !important;
+}
+
+ytd-watch-flexy[cinematics-enabled] #primary.ytd-watch-flexy {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+ytd-watch-flexy[cinematics-enabled] #columns.ytd-watch-flexy {
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+ytd-watch-flexy[flexy] #player-container-outer.ytd-watch-flexy {
+  width: 1024px;
+}
+
+.ytp-chapter-hover-container,
+.ytp-heat-map-chapter {
+  width: 100% !important;
+}
+
+ytd-watch-flexy[cinematics-enabled] .html5-video-player .video-stream {
+  width: 100% !important;
+  height: auto !important;
+  left: 0 !important;
+  top: 0 !important;
+  max-height: 600px;
+  border-radius: 8px;
+}
+
+ytd-watch-flexy[cinematics-enabled] .ytp-chrome-bottom {
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+}
+
+ytd-watch-flexy[cinematics-enabled] #below.ytd-watch-flexy,
+ytd-watch-flexy[cinematics-enabled] #secondary.ytd-watch-flexy {
+  display: none;
+}
+
+#container.ytd-player {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ytp-chapters-container {
+  display: flex;
+}
